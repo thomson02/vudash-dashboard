@@ -1,0 +1,14 @@
+{
+  "name": "my-vudash-dashboard",
+  "main": "vudash",
+  "scripts": {
+    "start": "vudash"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "vudash": "6.3.1",
+    "vudash-widget-ci": "6.0.2",
+    "vudash-widget-image": "file:./vudash-widget-image",
+    "vudash-widget-time": "6.3.1"
+  }
+}

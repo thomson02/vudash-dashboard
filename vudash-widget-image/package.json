@@ -1,0 +1,7 @@
+  { 
+    "name": "vudash-widget-image", 
+    "main": "widget.js",
+    "vudash": {
+      "component": "template.html"
+    }
+  }

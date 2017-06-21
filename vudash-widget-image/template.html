@@ -1,0 +1,24 @@
+<div class="vudash-widget-image" style="background-size: {{ imageSize }}; background-image: url({{ imageUrl }})"></div>
+
+<style>
+  .vudash-widget-image {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+</style>
+
+<script>
+  export default {
+    data () {
+      return {
+        imageUrl: '',
+        padding: '0px'
+      }
+    },
+    methods: {
+      update (data) {
+        this.set(data)
+      }
+    }
+  }
+</script>
